@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "upload": "dotnet run",
     "format": "dotnet format Bible-Version-Uploader.sln",
     "prepare": "husky"
   },
