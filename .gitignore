@@ -1,0 +1,7 @@
+node_modules
+obj
+bin
+
+processed_bible_books.json
+batch_progress.json
+failed_translations.json

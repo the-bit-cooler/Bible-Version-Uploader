@@ -1,0 +1,21 @@
+{
+  "name": "bible-version-uploader",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "format": "dotnet format Bible-Version-Uploader.sln",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.6"
+  },
+  "lint-staged": {
+    "*.cs": [
+      "echo 'Running dotnet format on Bible-Version-Uploader.sln…'",
+      "dotnet format Bible-Version-Uploader.sln --include"
+    ]
+  }
+}
